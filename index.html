@@ -5,67 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Шапка проєкту -->
-    <header class="heder">
-      <nav>
-        <!-- Логотип -->
-        <a href="/"><span class="heder-logo-WEB">WEB</span>STUDIO</a>
-        <!-- Навігація по сайту -->
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <!-- Header -->
+
+    <header class="header">
+      <nav class="header-nav">
+        <!-- Logo -->
+
+        <a class="header-logo link" href="/"
+          ><span class="header-logo-web link">WEB</span>STUDIO</a
+        >
+
+        <!-- Navi -->
+
+        <ul class="site-nav list">
+          <li><a class="header-nav-link link current" href="">Studio</a></li>
+          <li>
+            <a class="header-nav-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li><a class="header-nav-link link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <!-- Контактна інформація -->
-      <ul>
+
+      <!-- Contacts -->
+
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="heder-mail"
+          <a class="header-contact link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:110001111111" class="heder-tel">+11 (000) 111-11-11</a>
+          <a class="header-contact link" href="tel:110001111111"
+            >+11 (000) 111-11-11</a
+          >
         </li>
       </ul>
     </header>
+
     <!-- Унікальна інформація сторінки -->
-    <main class="main">
-      <!-- hero-baner -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+
+    <main>
+      <!-- Hero section -->
+
+      <section class="hero">
+        <h1 class="hero-baner">Effective Solutions for Your Business</h1>
+        <button class="hero-button btn" type="button">Order Service</button>
       </section>
-      <!-- Переваги студії -->
+
+      <!-- Abaut us -->
+
       <section>
-        <h2 hidden>Benefit</h2>
-        <ul>
+        <h2 class="bigger-titles" hidden>Benefit</h2>
+        <ul class="list">
           <li>
-            <h3>Strategy</h3>
+            <h3 class="smaller-titles">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="smaller-titles">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="smaller-titles">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="smaller-titles">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -73,39 +98,44 @@
           </li>
         </ul>
       </section>
-      <!-- Чим займається студія -->
+
+      <!-- What are we doing -->
+
       <section>
-        <h2>What are we doing</h2>
-        <ul>
+        <h2 class="bigger-titles">What are we doing</h2>
+        <ul class="list">
           <li>
             <img
-              src="./images/what-are-we-doing/img 1.jpg"
+              src="./images/what-are-we-doing/img-1.jpg"
               alt="monitor"
-              width="360px"
+              width="360"
               height="300"
             />
           </li>
           <li>
             <img
-              src="./images/what-are-we-doing/img 2.jpg"
+              src="./images/what-are-we-doing/img-2.jpg"
               alt="telefon"
-              width="360px"
+              width="360"
               height="300"
             />
           </li>
           <li>
             <img
-              src="./images/what-are-we-doing/img 3.jpg"
+              src="./images/what-are-we-doing/img-3.jpg"
               alt="netbook with cell fone"
-              width="360px"
+              width="360"
               height="300"
             />
           </li>
         </ul>
       </section>
+
+      <!-- Aur team -->
+
       <section>
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="bigger-titles">Our Team</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/our-team/team-1.jpg"
@@ -113,7 +143,7 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
+            <h3 class="smaller-titles">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -123,7 +153,7 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
+            <h3 class="smaller-titles">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -133,7 +163,7 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
+            <h3 class="smaller-titles">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -143,15 +173,19 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
+            <h3 class="smaller-titles">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <!-- Підвал сторінки -->
+
+    <!-- Footer -->
+
     <footer class="footer">
-      <a href="/"><span class="heder-logo-WEB">WEB</span>STUDIO</a>
+      <a class="footer-logo link" href="/"
+        ><span class="header-logo-web link">WEB</span>STUDIO</a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
