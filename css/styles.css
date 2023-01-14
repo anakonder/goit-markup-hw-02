@@ -80,7 +80,7 @@ header {
 .header-logo {
   color: var(--dark);
 
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -157,11 +157,21 @@ header {
   | What are we doing
   |============================
 */
+
+.work-field {
+  background-color: var(--accent);
+}
+
 /**
   |============================
   | Aur team
   |============================
 */
+
+.team {
+  background-color: var(--light);
+}
+
 /**
   |============================
   | Portfolio
@@ -192,7 +202,7 @@ header {
 .footer-logo {
   color: var(--light);
 
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
