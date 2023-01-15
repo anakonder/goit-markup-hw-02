@@ -22,13 +22,9 @@ body {
   background-color: #ffffff;
 
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  width: 1440px;
 }
 
 .list {
@@ -46,7 +42,9 @@ body {
   line-height: 1.5;
   display: flex;
   align-items: center;
+  letter-spacing: 0.04em;
 
+  border: none;
   cursor: pointer;
 }
 
@@ -81,11 +79,12 @@ header {
   color: var(--dark);
 
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-logo-web {
@@ -94,6 +93,8 @@ header {
 
 .header-nav-link {
   color: var(--dark);
+
+  font-weight: 500;
 }
 
 .header-nav-link.current {
@@ -180,9 +181,10 @@ header {
 
 .filter-button {
   background-color: var(--accent);
+  color: var(--primary-brand);
 }
 
-.filter-button:active,
+.filter-button:hover,
 .filter-button:focus {
   background-color: var(--pressed-state);
   color: var(--white);
@@ -203,7 +205,6 @@ header {
   color: var(--light);
 
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
