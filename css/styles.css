@@ -72,7 +72,7 @@ body {
 */
 
 header {
-  background-color: var(--accent);
+  background-color: var(--white);
 }
 
 .header-logo {
@@ -160,7 +160,7 @@ header {
 */
 
 .work-field {
-  background-color: var(--accent);
+  background-color: var(--white);
 }
 
 /**
